@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http:/www.thymeleaf.org">
+<head>
+	<title>Pairs</title>
+</head>
+<body>
+	<header>
+		<h1>Pairs</h1>
+	</header>
+	<ul>
+		<li th:each="pair : ${pairs}" th:text="${pair}"></li>
+	</ul>
+</body>
+</html>
