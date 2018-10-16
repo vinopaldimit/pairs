@@ -6,13 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class PairsController {
-	
+
 	private Repository repo = new Repository();
-	
-	@GetMapping("/")
-	public String getIndex() {
-		return "../index";
-	}
 
 	@GetMapping("/pairs")
 	public String getPairs(Model model) {
@@ -20,5 +15,5 @@ public class PairsController {
 		model.addAttribute("pairs", repo.getPairs());
 		return "pairs";
 	}
-	
+
 }
