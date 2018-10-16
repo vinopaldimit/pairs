@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier', 'Oswald', sans-serif;
+	font-size: 20px;
+}
+#do_it_button {
+	background-color: #1add39;
+	border-style: solid;
+	border-color: #39add1;
+	border-radius: 20px;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px black, 1px 1px 3px black inset;
+	color: darkblue;
+	text-decoration: none;
+	padding: 50px 150px;
+}
+#do_it_button:hover {
+	background-color: #2bee40;
+}
+#do_it_button:active {
+	color: #39add1;
+	box-shadow: 3px 3px 10px black, 3px 3px 10px black inset;
+	transition-duration: .1s;
+}
