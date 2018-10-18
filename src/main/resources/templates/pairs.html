@@ -6,14 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
-	<header>
-		<h1>Pairs</h1>
-	</header>
-	<ul>
-		<li th:each="pair : ${pairs}" th:text="${pair}"></li>
-	</ul>
-	<nav>
-		<a href="/pairs">DO IT AGAIN</a>
-	</nav>
+	<div class="container">
+		<header>
+			<h1>Pairs</h1>
+		</header>
+		<ul id="pairs_list">
+			<li th:each="pair : ${pairs}" th:text="${pair}"></li>
+		</ul>
+		<nav>
+			<a id="do_it_again_button" href="/pairs">DO IT AGAIN</a>
+		</nav>
+	</div> <!-- container -->
 </body>
 </html>
