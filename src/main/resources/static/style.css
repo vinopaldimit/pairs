@@ -24,3 +24,31 @@
 	box-shadow: 3px 3px 10px black, 3px 3px 10px black inset;
 	transition-duration: .1s;
 }
+#do_it_again_button {
+	background-color: #1add39;
+	border-style: solid;
+	border-color: #39add1;
+	border-radius: 20px;
+	border-width: 5px;
+	box-shadow: 3px 3px 10px black, 1px 1px 3px black inset;
+	color: darkblue;
+	text-decoration: none;
+	padding: 25px 75px;
+}
+#do_it_again_button:hover {
+	background-color: #2bee40;
+}
+#do_it_again_button:active {
+	color: #39add1;
+	box-shadow: 3px 3px 10px black, 3px 3px 10px black inset;
+	transition-duration: .1s;
+}
+#pairs_list {
+	display: grid;
+	grid-template-columns: 1fr;
+	list-style: none;
+	padding: 20px 40px;
+}
+#pairs_list li {
+	padding-bottom: 20px;
+}
