@@ -11,7 +11,7 @@
 	border-color: #39add1;
 	border-radius: 20px;
 	border-width: 5px;
-	box-shadow: 3px 3px 10px black, 1px 1px 3px black inset;
+	box-shadow: 2px 2px 4px black, -1px -1px 3px black inset;
 	color: darkblue;
 	text-decoration: none;
 	padding: 50px 150px;
@@ -22,7 +22,7 @@
 #do_it_button:active {
 	color: #39add1;
 	box-shadow: 3px 3px 10px black, 3px 3px 10px black inset;
-	transition-duration: .1s;
+	transition-duration: .2s;
 }
 #do_it_again_button {
 	background-color: #1add39;
@@ -30,7 +30,7 @@
 	border-color: #39add1;
 	border-radius: 20px;
 	border-width: 5px;
-	box-shadow: 3px 3px 10px black, 1px 1px 3px black inset;
+	box-shadow: 2px 2px 4px black, -1px -1px 3px black inset;
 	color: darkblue;
 	text-decoration: none;
 	padding: 25px 75px;
