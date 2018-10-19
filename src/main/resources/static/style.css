@@ -5,6 +5,9 @@
 	font-family: 'Courier', 'Oswald', sans-serif;
 	font-size: 20px;
 }
+h1 {
+	font-size: 2em;
+}
 #do_it_button {
 	background-color: #1add39;
 	border-style: solid;
@@ -43,12 +46,9 @@
 	box-shadow: 3px 3px 10px black, 3px 3px 10px black inset;
 	transition-duration: .1s;
 }
-#pairs_list {
-	display: grid;
-	grid-template-columns: 1fr;
+#pairs_list ul{
+	background-color: #ccc;
+	border-radius: 7.5%;
+	box-shadow: 1px 1px 3px black;
 	list-style: none;
-	padding: 20px 40px;
-}
-#pairs_list li {
-	padding-bottom: 20px;
 }

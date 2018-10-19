@@ -8,13 +8,15 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>Pairs</h1>
+			<h1>SOME HECKIN PAIRS!</h1>
 		</header>
-		<ul id="pairs_list">
-			<li th:each="pair : ${pairs}" th:text="${pair}"></li>
-		</ul>
+		<section id="pairs_list">
+			<ul>
+				<li th:each="pair : ${pairs}" th:text="${pair}"></li>
+			</ul>
+		</section>
 		<nav>
-			<a id="do_it_again_button" href="/pairs">DO IT AGAIN</a>
+			<a id="do_it_again_button" href="/pairs"><strong>DO IT AGAIN</strong></a>
 		</nav>
 	</div> <!-- container -->
 </body>
